@@ -69,38 +69,38 @@ public class Main {
         //String str = scanner.nextLine();
         //System.out.println(str);
 
-        //String myName = "Yury";
-        //String myLastName = "Chistyakov";
-        //String myJob = "QA Engineer";
-        //int myAge = 36;
-        //String aboutMe = String.format("Hey! My Name is %s and my Lastname is %s, I work as a %s. I'm %d years old.",myName, myLastName, myJob, myAge);
-        //System.out.println(aboutMe);
+        String myName = "Yury";
+        String myLastName = "Chistyakov";
+        String myJob = "QA Engineer";
+        int myAge = 36;
+        String aboutMe = String.format("Hey! My Name is %s and my Lastname is %s, I work as a %s. I'm %d years old.",myName, myLastName, myJob, myAge);
+        System.out.println(aboutMe);
 
 
-        //String myString = "Different types of veriables";
-        //System.out.println(myString);
-        //String myNewString = "Veriables different types";
-        //System.out.println(myNewString);
-        //String newerString = myString.concat(" are good to have");
-        //System.out.println(newerString);
-        //byte a = 77;
-        //System.out.println(a);
-        //short h = -3333;
-        //System.out.println(h);
-        //int b = 777777;
-        //System.out.println(b);
-        //long l = -222222222;
-        //System.out.println(l);
-        //float f = 0.0f;
-        //System.out.println(f);
-        //double d = 77.7;
-        //System.out.println(d);
-        //char t = 's';
-        //System.out.println(t);
-        //boolean contains = myString.contains("types");
-        //System.out.println(contains);
-        //boolean areEqual = myString.equals(myNewString);
-        //System.out.println(areEqual);
+        String myString = "Different types of veriables";
+        System.out.println(myString);
+        String newerString = myString.concat(" are good to have");
+        System.out.println(newerString);
+        String myNewString = "Veriables are so different";
+        System.out.println(myNewString);
+        byte a = 77;
+        System.out.println(a);
+        short h = -3333;
+        System.out.println(h);
+        int b = 777777;
+        System.out.println(b);
+        long l = -222222222;
+        System.out.println(l);
+        float f = 0.0f;
+        System.out.println(f);
+        double d = 77.7;
+        System.out.println(d);
+        char t = 's';
+        System.out.println(t);
+        boolean contains = myString.contains("types");
+        System.out.println(contains);
+        boolean areEqual = myString.equals(myNewString);
+        System.out.println(areEqual);
 
         String userPrint = "Please, enter your text here, and press Enter to proceed";
         System.out.println(userPrint);
@@ -108,6 +108,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine();
         System.out.println(str);
+
 
 
 
